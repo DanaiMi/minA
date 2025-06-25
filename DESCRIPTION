@@ -1,0 +1,23 @@
+Package: minA
+Title: Estimate minA polygons for species distribution
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Danai-Eleni", "Michailidou", , "d.e.michailid@gmail.com", role = c("aut", "cre")),
+    person("Maria", "Lazarina", role = "aut"),
+    person("Athanasios", "Kallimanis", role = "aut"),
+    person("Stefanos", "Sgardelis", role = "aut")
+  )
+Description: Provide functions to estimate the minimum distance between a
+    starting point and species presence and the minA polygons for each
+    starting point.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    doParallel,
+    foreach,
+    geosphere,
+    plyr,
+    sf,
+    sp
