@@ -2,13 +2,7 @@
 % Please edit documentation in R/dist_calc.r
 \name{dist_calc}
 \alias{dist_calc}
-\title{dist_calc – R function for estimating the minimum distance between starting point and species
-Description
-An R function that estimates the minimum distance between a specified starting point and the species under study based on the distVincentyEllipsoid function of \verb{geosphere´ package (Hijmans, 2017). There is an option to run the function in parallel.  }geosphere´, \verb{sp´, }foreach´, `doParallel´ packages should have been installed before using the functions (Bivand, Pebesma, & Gómez-Rubio, 2013; Hijmans, 2017; Microsoft corporation & Weston, 2014; Microsoft corporation & Weston, 2020; Pebesma & Bivand, 2005).
-Save the file minA_functions.R in your working directory.
-From R menu select file - > Source R code… and select the file minA_functions.R
-Usage
-dist_calc (poly, pnt, parallel = FALSE, cores)}
+\title{dist_calc – A function for estimating the minimum distance between starting point and species}
 \usage{
 dist_calc(poly, pnt, parallel = FALSE, cores)
 }
@@ -25,11 +19,10 @@ dist_calc(poly, pnt, parallel = FALSE, cores)
 A dataframe with ten columns: distance is the minimum distance between the starting point and the corresponding species closest occurrence measured in km, lon and lat are the coordinates of the closest occurrence of that species, inp is binary for species already present at the starting point, polyid is the unique id of the species polygon feature, id is the unique identifier for the species, plon and plat are the coordinates of the starting point, pntid is the unique id of the starting point, spnum is the species richness found in the corresponding distance from the starting point sorted according to distance and per starting point.
 }
 \description{
-dist_calc – R function for estimating the minimum distance between starting point and species
 Description
-An R function that estimates the minimum distance between a specified starting point and the species under study based on the distVincentyEllipsoid function of \verb{geosphere´ package (Hijmans, 2017). There is an option to run the function in parallel.  }geosphere´, \verb{sp´, }foreach´, `doParallel´ packages should have been installed before using the functions (Bivand, Pebesma, & Gómez-Rubio, 2013; Hijmans, 2017; Microsoft corporation & Weston, 2014; Microsoft corporation & Weston, 2020; Pebesma & Bivand, 2005).
-Save the file minA_functions.R in your working directory.
-From R menu select file - > Source R code… and select the file minA_functions.R
+An R function that estimates the minimum distance between a specified starting point and the species under study based on the distVincentyEllipsoid function of \verb{geosphere´ package. There is an option to run the function in parallel. }geosphere´, \verb{sp´, }foreach´, `doParallel´ packages should have been installed before using the functions.
+}
+\details{
 Usage
 dist_calc (poly, pnt, parallel = FALSE, cores)
 }

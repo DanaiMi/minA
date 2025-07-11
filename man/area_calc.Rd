@@ -2,13 +2,7 @@
 % Please edit documentation in R/area_calc.r
 \name{area_calc}
 \alias{area_calc}
-\title{Description
-An R function that estimates the minA for each specified starting point using the output of dist_calc function.
-\verb{geosphere´, }sf´, `sp´ packages should have been installed before using the functions (Bivand et al., 2013; Hijmans, 2017; Pebesma & Bivand, 2005; Pebesma, 2018).
-Save the file minA_functions.R in your working directory.
-From R menu select file - > Source R code… and select the file minA_functions.R
-Usage
-area_calc (cb)}
+\title{area_calc – R function for estimating the minA for each starting point}
 \usage{
 area_calc(cb)
 }
@@ -21,9 +15,9 @@ A list with two elements. The first is a dataframe called data with 5 columns: p
 \description{
 Description
 An R function that estimates the minA for each specified starting point using the output of dist_calc function.
-\verb{geosphere´, }sf´, `sp´ packages should have been installed before using the functions (Bivand et al., 2013; Hijmans, 2017; Pebesma & Bivand, 2005; Pebesma, 2018).
-Save the file minA_functions.R in your working directory.
-From R menu select file - > Source R code… and select the file minA_functions.R
+\verb{geosphere´, }sf´, `sp´ packages should have been installed before using the functions.
+}
+\details{
 Usage
 area_calc (cb)
 }
