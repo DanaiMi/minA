@@ -1,6 +1,6 @@
 Package: minA
 Title: Estimate minA polygons for species distribution
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: c(
     person("Danai-Eleni", "Michailidou", , "d.e.michailid@gmail.com", role = c("aut", "cre")),
     person("Maria", "Lazarina", role = "aut"),
